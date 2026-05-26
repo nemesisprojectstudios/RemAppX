@@ -37,6 +37,9 @@ RemAppX is designed to be fast, lightweight and easy to use. The app includes a 
 - **Run at startup:** inserts a shortcut to the executable/script 's current path in the `shell:startup` folder.
 ### Usage Guide Tab
 - has a shorter version of this guide inside
+### Hotkeys
+RemAppX has a singular hotkey by default:
+- **F1:** Hide/Show the GUI
 ## Keybind Syntax
 Both keybind columns accept the following syntax:
 - AHK v1 syntax: `#^!B`
