@@ -50,8 +50,9 @@ Both keybind columns accept the following syntax:
 - Text syntax 2: `Win Ctrl Alt B`
   - Each modifier key has it's own shortened name: `Win, Ctrl, Alt, Shift`
   - Each modifier key has whitespace right after their shortened names or they follow the same order as their shortened names were listed in
-Additionally, the parser is able to recognize keys such as `Tab` or `Escape` as valid keys. This applies for modifier keys as well, where the rightmost text-syntax modifier key  will be recognized as the input key and all other modifiers will stay as modifiers
-Mouse keys are recognized as `Lbutton, Rbutton` (Left/Right click), `Mbutton` (Middle click / scrollwheel click), `Xbutton1` (Backward) and `XButton2` (Forward) following AHKv1 syntax
+
+- Additionally, the parser is able to recognize keys such as `Tab` or `Escape` as valid keys. This applies for modifier keys as well, where the rightmost text-syntax modifier key  will be recognized as the input key and all other modifiers will stay as modifiers
+- Mouse keys are recognized as `Lbutton, Rbutton` (Left/Right click), `Mbutton` (Middle click / scrollwheel click), `Xbutton1` (Backward) and `XButton2` (Forward) following AHKv1 syntax
 ## Key Output Syntax
 Key outputs follow the same syntax as input keybinds, with an extra addition:
 The parser first extracts the modifier keys and puts them ahead of the rest of the string passed, so any extra additions with the `Send` function in AHK v1.1.37.02 also work. 
