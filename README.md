@@ -65,7 +65,7 @@ Some examples are:
 - typing `keyname Raw` after the modifiers will send the output key as a raw output (see AHKv1 docs)
 - and so on with every feature AHKv1 supports in this version
 
-## Examples:
+## Examples
 Command maps:
 ```
 #Escape -> taskmgr
